@@ -5,6 +5,9 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
+/*
+ * Base Model for all entities
+ */
 @MappedSuperclass
 @Data
 public abstract class BaseModel {
